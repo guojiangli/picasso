@@ -3,7 +3,7 @@ package config
 import (
 	"fmt"
 
-	"picasso/pkg/utils/kcast"
+	"github.com/guojiangli/picasso/pkg/utils/kcast"
 )
 
 func deepSearch(m map[string]interface{}, path []string) map[string]interface{} {

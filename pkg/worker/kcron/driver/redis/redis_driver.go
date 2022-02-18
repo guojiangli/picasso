@@ -6,7 +6,7 @@ import (
 	"log"
 	"time"
 
-	"picasso/pkg/klog/baselogger"
+	"github.com/guojiangli/picasso/pkg/klog/baselogger"
 
 	"github.com/go-redis/redis/v8"
 	"github.com/google/uuid"

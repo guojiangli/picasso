@@ -4,8 +4,8 @@ import (
 	"strings"
 	"time"
 
-	"picasso/pkg/utils/kcast"
-	"picasso/pkg/utils/kmap"
+	"github.com/guojiangli/picasso/pkg/utils/kcast"
+	"github.com/guojiangli/picasso/pkg/utils/kmap"
 	"github.com/mitchellh/mapstructure"
 	"github.com/pkg/errors"
 )

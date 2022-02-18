@@ -3,11 +3,11 @@ package nacos
 import (
 	"strings"
 
-	"picasso/pkg/utils/kstring"
+	"github.com/guojiangli/picasso/pkg/utils/kstring"
 
 	"github.com/spf13/viper"
 
-	"picasso/pkg/klog/baselogger"
+	"github.com/guojiangli/picasso/pkg/klog/baselogger"
 	"github.com/nacos-group/nacos-sdk-go/vo"
 
 	"github.com/nacos-group/nacos-sdk-go/clients/config_client"

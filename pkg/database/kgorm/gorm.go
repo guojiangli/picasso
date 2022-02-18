@@ -1,8 +1,8 @@
 package kgorm
 
 import (
-	"picasso/pkg/klog/baselogger"
-	"picasso/pkg/utils/ktime"
+	"github.com/guojiangli/picasso/pkg/klog/baselogger"
+	"github.com/guojiangli/picasso/pkg/utils/ktime"
 	"gorm.io/gorm"
 	"gorm.io/gorm/schema"
 	"gorm.io/plugin/dbresolver"

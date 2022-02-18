@@ -3,7 +3,7 @@ package kcron
 import (
 	"sync"
 
-	"picasso/pkg/klog/baselogger"
+	"github.com/guojiangli/picasso/pkg/klog/baselogger"
 	"github.com/pkg/errors"
 	"github.com/robfig/cron/v3"
 )

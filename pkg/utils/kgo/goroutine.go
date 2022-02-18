@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	log "picasso/pkg/klog"
-	"picasso/pkg/utils/kstring"
+	log "github.com/guojiangli/picasso/pkg/klog"
+	"github.com/guojiangli/picasso/pkg/utils/kstring"
 	"github.com/codegangsta/inject"
 )
 

@@ -8,10 +8,10 @@ import (
 	"os"
 	"strings"
 
-	"picasso/pkg/utils/kstack"
+	"github.com/guojiangli/picasso/pkg/utils/kstack"
 
 	"github.com/gin-gonic/gin"
-	"picasso/pkg/klog/baselogger"
+	"github.com/guojiangli/picasso/pkg/klog/baselogger"
 )
 
 // RecoveryWithWriter returns a middleware for a given writer that recovers from any panics and writes a 500 if there was one.

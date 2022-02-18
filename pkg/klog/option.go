@@ -4,7 +4,7 @@ import (
 	"io"
 	"os"
 
-	"picasso/pkg/config"
+	"github.com/guojiangli/picasso/pkg/config"
 )
 
 type Option struct {

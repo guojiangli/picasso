@@ -1,8 +1,8 @@
 package nacos
 
 import (
-	"picasso/pkg/klog"
-	"picasso/pkg/klog/baselogger"
+	"github.com/guojiangli/picasso/pkg/klog"
+	"github.com/guojiangli/picasso/pkg/klog/baselogger"
 )
 
 type Option struct {

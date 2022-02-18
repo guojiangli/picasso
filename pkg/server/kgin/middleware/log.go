@@ -7,8 +7,8 @@ import (
 	"io/ioutil"
 	"time"
 
-	"picasso/pkg/klog"
-	"picasso/pkg/klog/baselogger"
+	"github.com/guojiangli/picasso/pkg/klog"
+	"github.com/guojiangli/picasso/pkg/klog/baselogger"
 
 	"github.com/gin-gonic/gin"
 )

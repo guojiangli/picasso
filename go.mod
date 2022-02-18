@@ -1,4 +1,4 @@
-module picasso
+module github.com/guojiangli/picasso
 
 go 1.16
 

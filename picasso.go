@@ -5,13 +5,13 @@ import (
 	"errors"
 	"sync"
 
-	"picasso/pkg/klog"
-	"picasso/pkg/server"
-	"picasso/pkg/signals"
-	"picasso/pkg/utils/kcycle"
-	"picasso/pkg/utils/kdefer"
-	"picasso/pkg/utils/kgo"
-	"picasso/pkg/worker"
+	"github.com/guojiangli/picasso/pkg/klog"
+	"github.com/guojiangli/picasso/pkg/server"
+	"github.com/guojiangli/picasso/pkg/signals"
+	"github.com/guojiangli/picasso/pkg/utils/kcycle"
+	"github.com/guojiangli/picasso/pkg/utils/kdefer"
+	"github.com/guojiangli/picasso/pkg/utils/kgo"
+	"github.com/guojiangli/picasso/pkg/worker"
 	"github.com/spf13/pflag"
 )
 

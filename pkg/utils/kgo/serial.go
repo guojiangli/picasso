@@ -1,7 +1,7 @@
 package kgo
 
 import (
-	"picasso/pkg/utils/kstring"
+	"github.com/guojiangli/picasso/pkg/utils/kstring"
 	"github.com/pkg/errors"
 	"go.uber.org/multierr"
 )

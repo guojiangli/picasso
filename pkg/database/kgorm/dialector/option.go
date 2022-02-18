@@ -1,7 +1,7 @@
 package dialector
 
 import (
-	"picasso/pkg/config"
+	"github.com/guojiangli/picasso/pkg/config"
 )
 
 type Option struct {

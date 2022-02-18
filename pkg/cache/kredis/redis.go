@@ -2,8 +2,8 @@ package kredis
 
 import (
 	"context"
-	"picasso/pkg/klog/baselogger"
-	"picasso/pkg/utils/ktime"
+	"github.com/guojiangli/picasso/pkg/klog/baselogger"
+	"github.com/guojiangli/picasso/pkg/utils/ktime"
 	"github.com/go-redis/redis/v8"
 )
 

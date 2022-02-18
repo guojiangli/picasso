@@ -7,7 +7,7 @@ import (
 
 	jsoniter "github.com/json-iterator/go"
 
-	"picasso/pkg/utils/kcast"
+	"github.com/guojiangli/picasso/pkg/utils/kcast"
 )
 
 // MergeStringMap merge two map

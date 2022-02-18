@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	"picasso/pkg/config"
+	"github.com/guojiangli/picasso/pkg/config"
 	"github.com/rs/zerolog"
 )
 

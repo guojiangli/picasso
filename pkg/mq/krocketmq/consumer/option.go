@@ -1,9 +1,9 @@
 package consumer
 
 import (
-	"picasso/pkg/config"
-	"picasso/pkg/klog"
-	"picasso/pkg/klog/baselogger"
+	"github.com/guojiangli/picasso/pkg/config"
+	"github.com/guojiangli/picasso/pkg/klog"
+	"github.com/guojiangli/picasso/pkg/klog/baselogger"
 	"github.com/apache/rocketmq-client-go/v2/consumer"
 	"github.com/apache/rocketmq-client-go/v2/primitive"
 )

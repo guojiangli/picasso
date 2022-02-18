@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"runtime"
 
-	"picasso/pkg/klog"
-	"picasso/pkg/utils/kstring"
+	"github.com/guojiangli/picasso/pkg/klog"
+	"github.com/guojiangli/picasso/pkg/utils/kstring"
 )
 
 func try(fn func() error, cleaner func()) (ret error) {

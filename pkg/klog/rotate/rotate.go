@@ -1,7 +1,7 @@
 package rotate
 
 import (
-	"picasso/pkg/klog/rotate/lumberjack"
+	"github.com/guojiangli/picasso/pkg/klog/rotate/lumberjack"
 )
 
 func NewRotate(opts ...*RotateOption) *lumberjack.Logger {

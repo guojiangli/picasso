@@ -1,6 +1,6 @@
 package rotate
 
-import "picasso/pkg/config"
+import "github.com/guojiangli/picasso/pkg/config"
 
 // Config ...
 type RotateOption struct {

@@ -3,7 +3,7 @@ package klog
 import (
 	"context"
 
-	"picasso/pkg/trace/kopentracing"
+	"github.com/guojiangli/picasso/pkg/trace/kopentracing"
 	"github.com/rs/zerolog"
 )
 

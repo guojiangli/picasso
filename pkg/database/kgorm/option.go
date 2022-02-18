@@ -1,9 +1,9 @@
 package kgorm
 
 import (
-	"picasso/pkg/config"
-	"picasso/pkg/klog"
-	"picasso/pkg/klog/baselogger"
+	"github.com/guojiangli/picasso/pkg/config"
+	"github.com/guojiangli/picasso/pkg/klog"
+	"github.com/guojiangli/picasso/pkg/klog/baselogger"
 )
 
 type Option struct {

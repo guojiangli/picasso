@@ -1,9 +1,9 @@
 package kcron
 
 import (
-	"picasso/pkg/klog"
-	"picasso/pkg/klog/baselogger"
-	"picasso/pkg/worker/kcron/driver"
+	"github.com/guojiangli/picasso/pkg/klog"
+	"github.com/guojiangli/picasso/pkg/klog/baselogger"
+	"github.com/guojiangli/picasso/pkg/worker/kcron/driver"
 )
 
 type Option struct {

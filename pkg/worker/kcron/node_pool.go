@@ -4,9 +4,9 @@ import (
 	"sync"
 	"time"
 
-	"picasso/pkg/klog/baselogger"
-	"picasso/pkg/worker/kcron/consistenthash"
-	"picasso/pkg/worker/kcron/driver"
+	"github.com/guojiangli/picasso/pkg/klog/baselogger"
+	"github.com/guojiangli/picasso/pkg/worker/kcron/consistenthash"
+	"github.com/guojiangli/picasso/pkg/worker/kcron/driver"
 )
 
 const (

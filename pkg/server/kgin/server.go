@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"sync"
 
-	"picasso/pkg/klog/baselogger"
+	"github.com/guojiangli/picasso/pkg/klog/baselogger"
 
-	"picasso/pkg/server"
-	"picasso/pkg/utils/kstring"
+	"github.com/guojiangli/picasso/pkg/server"
+	"github.com/guojiangli/picasso/pkg/utils/kstring"
 	"github.com/gin-gonic/gin"
 )
 

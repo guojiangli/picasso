@@ -1,7 +1,7 @@
 package config
 
 import (
-	"picasso/pkg/config/source"
+	"github.com/guojiangli/picasso/pkg/config/source"
 )
 
 type Option struct {

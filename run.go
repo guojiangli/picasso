@@ -1,9 +1,9 @@
 package main
 
 import (
-	"picasso/pkg/klog"
-	"picasso/pkg/server/kgin"
-	midd "picasso/pkg/server/kgin/middleware"
+	"github.com/guojiangli/picasso/pkg/klog"
+	"github.com/guojiangli/picasso/pkg/server/kgin"
+	midd "github.com/guojiangli/picasso/pkg/server/kgin/middleware"
 )
 
 func main() {

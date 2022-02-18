@@ -3,10 +3,10 @@ package file
 import (
 	"path/filepath"
 
-	"picasso/pkg/klog/baselogger"
-	"picasso/pkg/utils/kfile"
-	"picasso/pkg/utils/kgo"
-	"picasso/pkg/utils/kstring"
+	"github.com/guojiangli/picasso/pkg/klog/baselogger"
+	"github.com/guojiangli/picasso/pkg/utils/kfile"
+	"github.com/guojiangli/picasso/pkg/utils/kgo"
+	"github.com/guojiangli/picasso/pkg/utils/kstring"
 	"github.com/fsnotify/fsnotify"
 	"github.com/spf13/viper"
 )

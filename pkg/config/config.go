@@ -5,10 +5,10 @@ import (
 	"strings"
 	"sync"
 
-	"picasso/pkg/klog/baselogger"
+	"github.com/guojiangli/picasso/pkg/klog/baselogger"
 
-	"picasso/pkg/config/source"
-	"picasso/pkg/utils/kmap"
+	"github.com/guojiangli/picasso/pkg/config/source"
+	"github.com/guojiangli/picasso/pkg/utils/kmap"
 	"github.com/pkg/errors"
 )
 

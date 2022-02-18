@@ -1,15 +1,15 @@
 package main
 
 import (
+	"github.com/guojiangli/picasso/pkg/config"
+	"github.com/guojiangli/picasso/pkg/config/source"
+	file_source "github.com/guojiangli/picasso/pkg/config/source/file"
+	"github.com/guojiangli/picasso/pkg/klog"
+	"github.com/guojiangli/picasso/pkg/klog/rotate"
+	"github.com/guojiangli/picasso/pkg/utils/kdefer"
+	"github.com/pkg/errors"
 	"io"
 	"os"
-	"picasso/pkg/config"
-	"picasso/pkg/config/source"
-	file_source "picasso/pkg/config/source/file"
-	"picasso/pkg/klog"
-	"picasso/pkg/klog/rotate"
-	"picasso/pkg/utils/kdefer"
-	"github.com/pkg/errors"
 )
 
 func (app *Application) initConfig() (err error) {
